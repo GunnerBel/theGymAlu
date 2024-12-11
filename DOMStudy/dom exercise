@@ -1,0 +1,39 @@
+DOM Quiz
+Part 1: Theoretical Questions
+DOM Basics:
+
+What is the difference between a Node and an Element in the DOM?
+How do you select an element by its id in the DOM?
+Creating Content:
+
+What are the steps to dynamically create and append an element to the DOM?
+Why should you prefer textContent over innerHTML in most cases?
+Events:
+
+What is the purpose of event delegation, and when would you use it?
+Explain the difference between event.target and event.currentTarget.
+Performance:
+
+What is document.createDocumentFragment() used for?
+Why should frequent DOM updates be batched?
+Part 2: Practical Challenges
+Dynamic List Generation
+Create a <ul> with 5 <li> items. Each <li> should include the text Item X (where X is the item number) and a "Remove" button to delete the item. Use event delegation for the remove functionality.
+
+Debounced Input Field
+Create an input field that logs the user’s typed value to the console only after they stop typing for 1 second.
+
+Event Delegation in Action
+
+Create a <div> container with 3 child <button> elements.
+Add a single event listener to the <div> that logs the button text when any button is clicked.
+Batch Updates with DocumentFragment
+Add 50 <p> elements to the <body>, all containing the text "Hello, DOM!" in a single operation using DocumentFragment.
+
+Bonus Challenge
+Combine all your knowledge into a mini app:
+
+Create a to-do list app where users can:
+Add new tasks via an input field and button.
+Remove tasks with a "Delete" button (using event delegation).
+Edit tasks inline by clicking on the text.
