@@ -24,3 +24,21 @@ setTimeout(() => {
     button.disabled = false
 }, 10000)
 
+/*
+Make a form which collect a person name,
+ university and age and console.log() an object containing all the details. 
+ */
+const form = document.querySelector('form')
+
+form.addEventListener('submit', (event) => {   
+    event.preventDefault()
+    const name = document.getElementById('name').value
+    const uni = document.getElementById('uni').value
+    const age = document.getElementById('age').value
+    const obj = {
+        name,
+        uni,
+        age
+    }
+    console.log(obj)
+})
